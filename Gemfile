@@ -1,9 +1,9 @@
 source "https://rubygems.org"
 
 group :development do
-  gem "beaker", "> 2.0.0"
-  gem "beaker-rspec", ">= 5.1.0"
-  gem "beaker-puppet_install_helper"
+  gem "beaker", ">= 2.51.0"
+  gem "beaker-rspec", ">= 5.6.0"
+  gem "beaker-puppet_install_helper", ">= 0.4.4"
   gem "pry"
   gem "puppet-blacksmith"
   gem "serverspec"
@@ -15,7 +15,7 @@ group :test do
   gem "json", '~> 1.8.3'
   gem "json_pure", '~> 1.8.3'
 
-  gem "rake"
+  gem "rake", ">= 12.3.3"
   gem "puppet", ENV['PUPPET_VERSION'] || '~> 3.7.0'
   gem "puppet-lint"
 
@@ -23,8 +23,8 @@ group :test do
   gem "rspec-core"
   gem "rspec-puppet"
 
-  gem "puppet-syntax"
-  gem "puppetlabs_spec_helper"
+  gem "puppet-syntax", ">= 2.1.0"
+  gem "puppetlabs_spec_helper", ">= 1.2.2"
   gem "hiera"
   gem "hiera-puppet-helper"
 end
