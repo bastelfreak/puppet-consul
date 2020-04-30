@@ -1,9 +1,9 @@
 source "https://rubygems.org"
 
 group :development do
-  gem "beaker", "> 2.0.0"
-  gem "beaker-rspec", ">= 5.1.0"
-  gem "beaker-puppet_install_helper"
+  gem "beaker", ">= 3.7.0"
+  gem "beaker-rspec", ">= 6.0.0"
+  gem "beaker-puppet_install_helper", ">= 0.5.0"
   gem "pry"
   gem "puppet-blacksmith"
   gem "serverspec"
@@ -12,7 +12,7 @@ end
 
 group :test do
   # Pin for 1.9.3 compatibility for now
-  gem "json", '~> 1.8.3'
+  gem "json", "~> 2.3.0"
   gem "json_pure", '~> 1.8.3'
 
   gem "rake"
