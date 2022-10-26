@@ -1,0 +1,6 @@
+{
+  "description": "Generates a Consul secret",
+  "implementations": [
+    {"name": "keygen.sh", "requirements": ["shell"]}
+  ]
+}
