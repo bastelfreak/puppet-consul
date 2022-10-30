@@ -1,0 +1,6 @@
+{
+  "description": "Does ACL bootstrapping and returns the master token",
+  "implementations": [
+    {"name": "acl_bootstrap.sh", "requirements": ["shell"]}
+  ]
+}
