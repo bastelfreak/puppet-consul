@@ -1,0 +1,6 @@
+{
+  "description": "Returns the ACL config block from consul",
+  "implementations": [
+    {"name": "get_acl_config.sh", "requirements": ["shell"]}
+  ]
+}
