@@ -1,9 +1,9 @@
 source "https://rubygems.org"
 
 group :development do
-  gem "beaker", "> 2.0.0"
-  gem "beaker-rspec", ">= 5.1.0"
-  gem "beaker-puppet_install_helper"
+  gem "beaker", ">= 3.21.0"
+  gem "beaker-rspec", ">= 6.0.0"
+  gem "beaker-puppet_install_helper", ">= 0.5.0"
   gem "pry"
   gem "puppet-blacksmith"
   gem "serverspec"
